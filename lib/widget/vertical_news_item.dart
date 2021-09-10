@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class VerticalNewsItem extends StatelessWidget {
   final News news;
- final Function onItemClick;
+  final Function onItemClick;
 
   const VerticalNewsItem({Key key, this.news, this.onItemClick})
       : super(key: key);
@@ -20,7 +20,7 @@ class VerticalNewsItem extends StatelessWidget {
                 alignment: Alignment.bottomCenter,
                 child: Container(
                   height: 270,
-                  padding: EdgeInsets.only(left: 8),
+                  padding: EdgeInsets.only(left: 8, right: 8),
                   child: Card(
                     elevation: 0.0,
                     shape: RoundedRectangleBorder(
