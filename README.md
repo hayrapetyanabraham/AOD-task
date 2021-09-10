@@ -1,6 +1,6 @@
 # AOD Task
 
-A new Flutter task project for AOD.
+A new Flutter task for AOD.
 
 ## Getting Started
 
